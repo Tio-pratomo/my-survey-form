@@ -1,0 +1,83 @@
+@media only screen and (max-width: 600px) {
+    #survey-form {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .name input[id="name"],
+    .email input[id="email"],
+    .age input[id="number"],
+    .focus-programming select[id="dropdown"] {
+        width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .comment textarea[id="comment"] {
+        width: 100%;
+        height: 100px;
+        border: 1.5px solid silver;
+    }
+
+    button {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    #survey-form {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .name input[id="name"],
+    .email input[id="email"],
+    .age input[id="number"],
+    .focus-programming select[id="dropdown"] {
+        width: 100%;
+    }
+
+    fieldset {
+        width: 100%;
+    }
+
+    .comment textarea[id="comment"] {
+        width: 100%;
+        height: 100px;
+        border: 1.5px solid silver;
+    }
+
+    button {
+        width: 75%;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1000px) {
+    #survey-form {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .name input[id="name"],
+    .email input[id="email"],
+    .age input[id="number"],
+    .focus-programming select[id="dropdown"] {
+        width: 90%;
+    }
+
+    fieldset {
+        width: 90%;
+    }
+
+    .comment textarea[id="comment"] {
+        width: 90%;
+        height: 100px;
+        border: 1.5px solid silver;
+    }
+
+    button {
+        width: 41.66%;
+    }
+}

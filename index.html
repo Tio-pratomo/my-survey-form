@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <title>My survey form</title>
+</head>
+
+<body>
+    <form id="survey-form">
+        <h1 id="title">SURVEY FORM</h1>
+        <p id="description">Thank you for taking the time to fill out this survey form</p>
+
+        <div class="name">
+            <label id="name-label" for="name">Name</label><br>
+            <input type="text" id="name" required placeholder="Enter your name">
+        </div>
+
+        <div class="email">
+            <label id="email-label" for="email">Email</label><br>
+            <input type="email" id="email" required placeholder="Enter your email">
+        </div>
+
+        <div class="age">
+            <label id="number-label" for="number">Age</label><br>
+            <input type="number" name="number" id="number" min="16" max="99" placeholder="Age">
+        </div>
+
+        <div id="focus-program" class="focus-programming">
+            <label for="dropdown">Choose your programming focus</label><br>
+            <select name="programming" id="dropdown">
+                <option value="Option" disabled>Option</option>
+                <option value="front-end">Front-End Developent</option>
+                <option value="back-end">Back-End Developent</option>
+                <option value="data-analysis">Data Analisys</option>
+            </select>
+        </div>
+
+        <div class="programmer-level">
+            <fieldset>
+                <legend>What is your current programming level</legend>
+                <input type="radio" name="level-program" id="beginner" value="beginner" checked>
+                <label for="beginner">Beginner</label>
+                <br><br>
+                <input type="radio" name="level-program" id="intermediate" value="intermediate">
+                <label for="intermediate">Intermediate</label>
+                <br><br>
+                <input type="radio" name="level-program" id="expert" value="expert">
+                <label for="expert">Expert</label>
+            </fieldset>
+        </div>
+
+        <div class="language-program">
+            <fieldset>
+                <legend>What programming language would you like to improve on</legend>
+                <input type="checkbox" name="language-program" id="react" value="react" checked>
+                <label for="react">React.js</label>
+                <br>
+                <input type="checkbox" name="language-program" id="vue" value="vue">
+                <label for="react">Vue.js</label>
+                <br>
+                <input type="checkbox" name="language-program" id="angular" value="angular">
+                <label for="react">Angular.js</label>
+                <br>
+                <input type="checkbox" name="language-program" id="PHP" value="PHP">
+                <label for="PHP">PHP</label>
+                <br>
+                <input type="checkbox" name="language-program" id="node-js" value="node-js">
+                <label for="node-js">Node.js</label>
+                <br>
+                <input type="checkbox" name="language-program" id="machine-learning" value="machine-learning">
+                <label for="machine-learning">Machine-learning</label>
+            </fieldset>
+        </div>
+
+        <div class="comment">
+            <label for="comment">criticism and suggestions</label><br>
+            <textarea name="name" id="comment" cols="50" rows="5"></textarea>
+        </div>
+
+        <div class="submit-button">
+            <button type="submit" id="submit">Submit</button>
+        </div>
+    </form>
+
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>

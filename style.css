@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#survey-form {
+    border: 2px solid rgb(90, 17, 17);
+    width: 80%;
+    height: 100%;
+    margin: 10vh auto 0;
+    padding: 40px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+form h1,
+form p {
+    text-align: center;
+    color: rgb(0, 255, 0);
+}
+
+.name,
+.email,
+.age,
+.focus-programming,
+.comment {
+    margin: 2vh 0;
+    font-size: 1.2em;
+    color: rgb(0, 255, 0)
+}
+
+.name label,
+.email label,
+.age label,
+.focus-programming label,
+.comment label {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+.name input[id="name"],
+.email input[id="email"],
+.age input[id="number"],
+.focus-programming select[id="dropdown"] {
+    width: 50%;
+    height: 30px;
+    border: 1.5px solid silver;
+}
+
+.programmer-level {
+    margin: 2vh 0;
+}
+
+legend {
+    margin: 0 0 3vh;
+    color: rgb(0, 255, 0);
+}
+
+fieldset {
+    width: 50%;
+    border: 1.5px solid silver;
+}
+
+.comment textarea[id="comment"] {
+    width: 50%;
+    height: 100px;
+    border: 1.5px solid silver;
+}
+
+button {
+    width: 25%;
+    height: 50px;
+    background-color: rgb(0, 255, 0);
+    font-weight: bolder;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    margin: 5vh 0 0;
+}
